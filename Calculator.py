@@ -22,6 +22,10 @@ while C == "n":
     elif Opera == "//":
         print("Result: ", A//B)
         C = input("Exit calculator? (y/n) ")
+    elif Opera == "**":
+        print("Result: ", A**B)
+        C = input("Exit calculator? (y/n) ")
+
 
     
 
